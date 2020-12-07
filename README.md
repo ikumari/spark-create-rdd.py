@@ -1,0 +1,5 @@
+orderItems = sc.textFile("/public/retail_db/order_items")
+type(orderItems)
+help(orderItems)
+orderItems.first()
+for i in orderItems.take(10): print(i)
